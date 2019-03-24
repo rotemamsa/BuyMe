@@ -142,6 +142,5 @@ def send_receiver_info(driver):
     emailtext.send_keys("rotem@gmail.com")
     emailtext.send_keys(Keys.ENTER)
 
-
     #submit
     driver.find_element_by_xpath("//button[@type='submit']").click()
