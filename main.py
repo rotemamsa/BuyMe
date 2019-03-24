@@ -6,7 +6,7 @@ driver.implicitly_wait(10)
 driver.get("https://buyme.co.il/")
 
 #main class to call each buyme step seperatly
-#BuyMe_Steps.register(driver)
+BuyMe_Steps.register(driver)
 BuyMe_Steps.home(driver)
 BuyMe_Steps.business_screen(driver)
 BuyMe_Steps.send_receiver_info(driver)
